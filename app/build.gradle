@@ -19,6 +19,9 @@ android {
     packagingOptions {
         exclude 'META-INF/androidx.exifinterface_exifinterface.version'
     }
+    aaptOptions {
+        noCompress "tflite"
+    }
 }
 
 dependencies {
